@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 8px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #1143a4;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin: auto;
+    transition: 0.15s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+#logo{
+    margin-left: 3%;
+}
+
+.university{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('university.jpg');
+  background-size: 100% 85%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  margin-top: -4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbox{
+    color: white;
+    height: 50%;
+    width: 60%;
+    padding-right: 25px;
+    margin-left: -10px;
+}
+
+.fill-Form{
+    background-color: white;
+    height: 80%;
+    width: 30%;
+    
+
+}
+
+h2{
+    text-align: center;
+    font-size: large;
+}
+
+.form-group{
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+            
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            height: 2%;
+}
+
+#register{
+    display: block;
+    width: 80%;
+    background-color: rgb(209, 47, 2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* -----------------------------------------------why---------------------------------------- */
+.why{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.why h1{
+    font-size: 80px bold;
+    font-weight: 600;
+    color: #1143a4;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.course-col h2{
+    color: rgb(255, 136, 0);
+    font-size: 50px;
+}
+
+/*-------------------------------------courses-----------------------------------------*/
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.courses h1{
+    font-size: 80px bold;
+    font-weight: 600;
+    color: #1143a4;
+}
+
+.courses p{
+    font-size: 20px bold;
+    
+}
+
+.accordion-header{
+    background-color: #1143a4;
+    color: #fff; 
+}
+
+.top{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.top h1{
+    font-size: 80px bold;
+    font-weight: 600;
+    color: #1143a4;
+}
+
+
+
+
